@@ -1,0 +1,6 @@
+framework module OTPGenerator {
+  umbrella header "OTPGenerator-umbrella.h"
+
+  export *
+  module * { export * }
+}

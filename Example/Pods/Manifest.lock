@@ -1,0 +1,28 @@
+PODS:
+  - IDZSwiftCommonCrypto (0.13.0)
+  - OTPGenerator (0.1.0):
+    - IDZSwiftCommonCrypto (~> 0.12)
+
+DEPENDENCIES:
+  - OTPGenerator (from `https://github.com/sehosseini/OTPGenerator.git`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - IDZSwiftCommonCrypto
+
+EXTERNAL SOURCES:
+  OTPGenerator:
+    :git: https://github.com/sehosseini/OTPGenerator.git
+
+CHECKOUT OPTIONS:
+  OTPGenerator:
+    :commit: bbcff63134fc5f2faa3b37aa8d658e63ba9027ff
+    :git: https://github.com/sehosseini/OTPGenerator.git
+
+SPEC CHECKSUMS:
+  IDZSwiftCommonCrypto: 00dd37cdfbd149312a7e5a582cf9909f8b129f44
+  OTPGenerator: 7190486ac4c920319bed0188605a2fd2d1b71a50
+
+PODFILE CHECKSUM: 53df90907c50eb24c23f5b5c62f8054bebd156a0
+
+COCOAPODS: 1.7.5

@@ -1,0 +1,27 @@
+{
+  "name": "OTPGenerator",
+  "version": "0.1.0",
+  "summary": "An OTP generator library",
+  "swift_versions": "4.2",
+  "description": "An OTP generator library use for all bank application who want to create OTP password to login or payment",
+  "homepage": "https://github.com/sehosseini/OTPGenerator",
+  "license": "MIT",
+  "authors": {
+    "Ebrahim Hosseini": "sehosseini@me.com"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source": {
+    "git": "https://github.com/sehosseini/OTPGenerator.git",
+    "tag": "0.1.0"
+  },
+  "source_files": "OTPGenerator/**/*",
+  "exclude_files": "OTPGenerator/**/*.plist",
+  "dependencies": {
+    "IDZSwiftCommonCrypto": [
+      "~> 0.12"
+    ]
+  },
+  "swift_version": "4.2"
+}
