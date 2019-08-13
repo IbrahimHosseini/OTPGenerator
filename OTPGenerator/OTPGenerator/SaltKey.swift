@@ -11,6 +11,6 @@ import Foundation
 
 public class OTPConfig {
     public static let shared = OTPConfig()
-    public var salt: String = ""
+    public var salt: String = "rvfnaped"
     
 }
