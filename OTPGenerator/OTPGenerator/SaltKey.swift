@@ -9,10 +9,8 @@
 import Foundation
 
 
-public class Configurations {
-    
-    static let share = Configurations()
-    
-    var salt = ""
+public class OTPConfig {
+    public static let shared = OTPConfig()
+    public var salt: String = ""
     
 }

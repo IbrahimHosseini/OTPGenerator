@@ -24,8 +24,7 @@ class Decrypt {
     }
     
     convenience init(text: String) {
-        let key = Configurations.share.key
-        print("key-> \(key)")
+        let key = OTPConfig.shared.salt
         self.init(text: text, salt: key)
     }
     
