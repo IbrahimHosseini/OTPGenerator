@@ -9,7 +9,7 @@
 import Foundation
 
 
-class OTPGenerator {
+public class OTPGenerator {
     
     // otp key get from server
     private var otpKey: String
@@ -21,19 +21,15 @@ class OTPGenerator {
     private var digits: Int
     
     
-    init(otpKey: String, duration: Int, digits: Int) {
+    public init(otpKey: String, duration: Int, digits: Int) {
         self.digits = digits
         self.duration = duration
         self.otpKey = otpKey
     }
     
-    convenience init(otpKey: String) {
-        self.init(otpKey: otpKey, duration: 60, digits: 7)
-    }
-    
     // generate HOTP key
     @discardableResult
-    func generate() -> Int {
+    public func generate() -> Int {
         return getHOTP()
     }
     

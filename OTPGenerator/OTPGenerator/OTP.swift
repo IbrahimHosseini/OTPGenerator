@@ -9,7 +9,7 @@
 import Foundation
 
 
-class OTP {
+public class OTP {
     
     // get otp key
     var key: [UInt8]
@@ -20,7 +20,7 @@ class OTP {
     // time of key to alive
     var duration: Int
     
-    init(key: [UInt8], digit: Int, duration: Int) {
+    public init(key: [UInt8], digit: Int, duration: Int) {
         self.key = key
         self.digit = digit
         self.duration = duration
