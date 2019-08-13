@@ -9,10 +9,10 @@
 import Foundation
 
 
-class Configurations {
+public class Configurations {
     
     static let share = Configurations()
     
-    var key = ""
+    var salt = ""
     
 }
